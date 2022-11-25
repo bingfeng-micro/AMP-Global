@@ -1,4 +1,15 @@
 # AMP_Global
-Antimicrobial peptides are a promising new class of antimicrobials that could address the antibiotic resistance crisis, which poses a major threat to human health. Here we identify the biosynthetic potential of antimicrobial peptides in the global microbiome and systematically quantified the risk of each resistance determinant to human health by using these codes and scripts
+Description
+ggmap[1] is a new tool which enables such visualization by combining the spatial information of static maps from Google Maps, OpenStreetMap, Stamen Maps or CloudMade Maps with the layered grammar of graphics implementation of ggplot2[2].
 
-In the main brach, you can found the codes and scripts for annotation, analysis and visulization in our study. All the data for analysis and visualization will be uploaded as demos respectively, once our study is published.
+Installation
+we need to install ggmap and ggplot2
+install.packages("ggmap")
+install.packages("ggplot2")
+library(ggmap)
+library(ggplot2)
+
+
+References
+[1]Kahle, D. & Wickham, H. ggmap: spatial visualization with ggplot2. R. J. 5, 144–161 (2013).
+[2]Villanueva, R. A. M. & Chen, Z. J. ggplot2: elegant graphics for data analysis (2nd ed.). Meas.: Interdiscip. Res. Perspect. 17, 160–167 (2019).
