@@ -7,7 +7,7 @@ we need to install ggmap and ggplot2
 `install.packages("ggmap"） 
 install.packages("ggplot2")  
 library(ggmap)  
-library(ggplot2)`  
+library(ggplot2)  `  
 
 
 #References
